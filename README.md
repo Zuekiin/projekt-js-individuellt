@@ -30,8 +30,6 @@ Delete: Click the "Delete" button to remove a movie from your list.
 
 Future Enhancements:
 
-Add user authentication to allow multiple users to save their own lists.
-
 Implement a "Sort by Rating" feature.
 
 Add a "Watchlist" feature to track movies you want to watch later.
