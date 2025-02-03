@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite movies</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CYBERPUNK google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main script -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>My favorite movies</h1>
+    </header>
+    <main>
+      <form id="movieForm">
+        <input
+          type="text"
+          id="movieName"
+          autocomplete="off"
+          placeholder="Search for a movie title"
+        />
+        <!-- DropDown Search -->
+        <ul id="dropdown" class="hidden"></ul>
+
+        <!-- Movie details when selected movie -->
+        <div id="movieDetailsContainer"></div>
+
+        <button type="submit" id="submitBtn">Submit</button>
+      </form>
+
+      <section>
+        <ul id="movieLists"></ul>
+      </section>
+    </main>
+  </body>
+</html>
